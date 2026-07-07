@@ -46,16 +46,6 @@ Response
 ```
 ---
 
-## Streamlit Application
-
-The project also includes a local Streamlit application for interactive predictions.
-
-Features:
-
-- Enter any SMS message
-- Predict Spam or Ham
-- Display prediction confidence
-
 ## Technologies Used
 
 - Python
@@ -100,11 +90,11 @@ pip install -r requirements.txt
 ### Run the Streamlit frontend
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run streamlit.py
 ```
 ---
 
 ### Run the API locally
 ```bash
-uvicorn app.main:app --reload
+uvicorn app.api:app --reload
 ```
