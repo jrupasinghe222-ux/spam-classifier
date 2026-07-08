@@ -6,11 +6,13 @@ A machine learning project that classifies SMS messages as **Spam** or **Ham (No
 
 ## Live Demo
 
-**Streamlit App:**  
+**Streamlit App:**
+https://spam-classifier-s6mkcltlyokvbsk8kgrpfz.streamlit.app/
 
 ## Application Preview
+<img width="912" height="473" alt="image" src="https://github.com/user-attachments/assets/f6ad95bf-fd6f-419c-b38d-fa0d2328555d" />
 
-
+<img width="912" height="222" alt="image" src="https://github.com/user-attachments/assets/5b578e95-17ee-4f1b-a8f6-44e117c2f197" />
 
 ## Features
 
@@ -45,16 +47,6 @@ Response
 }
 ```
 ---
-
-## Streamlit Application
-
-The project also includes a local Streamlit application for interactive predictions.
-
-Features:
-
-- Enter any SMS message
-- Predict Spam or Ham
-- Display prediction confidence
 
 ## Technologies Used
 
@@ -100,11 +92,11 @@ pip install -r requirements.txt
 ### Run the Streamlit frontend
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run streamlit.py
 ```
 ---
 
 ### Run the API locally
 ```bash
-uvicorn app.main:app --reload
+uvicorn app.api:app --reload
 ```
